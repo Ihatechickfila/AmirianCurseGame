@@ -1,0 +1,320 @@
+{
+    "Categories":{
+        "main":"Main",
+        "secondary":"Secondary",
+        "party":"Party",
+        "jobs":"Jobs"
+    },
+    "Amirian01":{
+        "title":"Amirian Curse - The haunted island",
+        "detail":"I've been cursed.\nI need to find and defeat the evil Succubus Queen, Lilith, or I'll become her toy forever in her netherworld.",
+        "category":"main",
+        "next":"Amirian02",
+        "icon":31,
+        "behavior": 1,
+        "stages":{
+            "escape01":{
+                "title":"Escape the Tower of Wisdom"
+            },
+            "island01":{
+                "title":"Travel to Amirian Island"
+            },
+            "tower01":{
+                "title":"Explore the Tower of Lust"
+            }
+        }
+    },
+    "Amirian02":{
+        "title":"Amirian Curse - The Tower of Lust",
+        "detail":"The Tower of Lust must be unlokced with different Sigils.\nI must find the required sigils to open the tower gates to the upper floor and confront Lilith.",
+        "category":"main",
+        "icon":31,
+        "behavior":1,
+        "stages":{
+            "tower02":{
+                "title":"Open the second floor's gate"
+            },
+            "tower03":{
+                "title":"Open the third floor's gate"
+            },
+            "tower04":{
+                "title":"Open the fourth floor's gate"
+            },
+            "tower05":{
+                "title":"Open the fifth floor's gate"
+            }
+        }
+    },
+    "Amirian03":{
+        "title":"Amirian Curse - The Queen of Succubus",
+        "detail":"This is my chance to stop Lilith and get ride of this damned curse!",
+        "category":"main",
+        "icon":31,
+        "behavior":1,
+        "stages":{
+            "meetlilith01":{
+                "title":"Meet Lilith at the Tower of Lust's dome."
+            },
+            "defeatlilith01":{
+                "title":"Defeat Lilith, the Queen of Succubus."
+            }
+        }
+    },
+    "Chapter01":{
+        "title":"Chapter 1 - The journey begins",
+        "detail":"We're headed to the east path so we can take the road to Dawn Harbor.",
+        "category":"main",
+        "behavior":1,
+        "icon":189,
+        "next":"Chapter02",
+        "stages":{
+            "ivymaidens01":{
+                "title":"Locate the east path to the road",
+                "required":true
+            },
+            "alraune01":{
+                "title":"Find alraune's nest",
+                "detail":"A horde of magic evil creatures are giving trouble to leave the forest.\nI may need to find a way to deal with them in order to leave.",
+                "required":true
+            },
+            "alraune02":{
+                "title":"Defeat Alraune",
+                "detail":"A strange woman is taking over the forest with her horde of ivy fiends.\nI need to put her down to unravel the path to the road.",
+                "required":true
+            },
+            "exit01":{
+                "title":"Leave the forest",
+                "detail":"With Alraune down and the ivies gone,\nthe path to the road should be open now.",
+                "required":true
+            }
+        }
+    },
+    "Chapter02":{
+        "title":"Chapter 2 - Dawn comes Slowly",
+        "detail":"A thief stole the Grimmoire of Conjuration\nI won't ever be able to confront Lilith without the book!",
+        "category":"main",
+        "reward":"Grimmoire of Conjuration",
+        "icon":189,
+        "behavior":1,
+        "stages":{
+            "through_forestoflys":{
+                "title":"Travel south through the Forest of Lys"
+            },
+            "leadto_valyndra":{
+                "title":"Get information in Valyndra"
+            },
+            "interrogate_aurelia":{
+                "title":"Interrogate the thief"
+            },
+            "recovergrimoire":{
+                "title":"Get back the Grimmoire"
+            },
+            "leadto_dawnharbor":{
+                "title":"Travel to Dawn Harbor"
+            },
+            "sailto_amirian":{
+                "title":"Sail to Amirian Island"
+            }
+        }
+    },
+    "Chapter03":{
+        "title":"Chapter 3 - Northward Bound",
+        "detail":"Amaymon located the next Arcane Sigil\nin the isolated cold regions of the north.",
+        "category":"main",
+        "icon":189,
+        "behavior":1,
+        "stages":{
+            "headnorth01":{
+                "title":"Head north through WestBrook Passage"
+            },
+            "meetelder01":{
+                "title":"Talk to the Elder of the town",
+                "detail":"Coru was once the protector of the beastkin town.\nSomehow, she's turned against them and now\nshe roams alone in the Frozen Dale."
+            },
+            "meetcoru01":{
+                "title":"Find the Rampage Wolf Girl",
+                "detail":"Coru was once the protector of the beastkin town.\nSomehow, she's turned against them and now\nshe roams alone in the Frozen Dale."
+            },
+            "meetcoru02":{
+                "title":"Force Coru to surrender",
+                "detail":"We've spotted the lone wild girl lair.\nIt's time we have some words with her."
+            },
+            "icepalace01":{
+                "title":"Travel to the Ice Castle",
+                "detail":"Coru will join us once we stop her\nolder sister, Kagura.\nWe'll meet her in the Ice Palace, far in the North."
+            },
+            "defeatkagura01":{
+                "title":"Defeat Kagura",
+                "detail":"Coru is the younger sister in the pack.\nSince Kagura betrayed her she's been protecting the town\nfrom the beastkin, attacks.\nNow we can help her to clean her honor."
+            }
+        }
+    },
+    "Chapter04":{
+        "title":"Chapter 4 - City of Gears",
+        "detail":"",
+        "category":"main",
+        "icon":189,
+        "behavior":1,
+        "stages":{
+            "tobliss01":{
+                "title":"Travel to Bliss",
+                "detail":"The next glyph points to the Bliss,\na dangerous city ruled by a mercilless dominatrix"
+            },
+            "escape01":{
+                "title":"Find a way to escape",
+                "detail":"We've been captured by the city guards and left\nnaked and defenseless in the dungeons.\nWe could use some help to escape."
+            },
+            "control01":{
+                "title":"Collapse the Hydraulic Engine",
+                "detail":"We need to find a way to unlock the dungeon's doors.\nMira points to investigate the south rooms to shut down \nthe hydraulic engine."
+            },
+            "escape02":{
+                "title":"Escape the dungeon",
+                "detail":"It's time to leave this hole\nand meet Lady Lucille Jessop at last"
+            },
+            "control02":{
+                "title":"Shut down the control room",
+                "detail":"Mira knows how to turn off the last protection line\nin the fortress to open our way to find the sigil."
+            },
+            "lucille01":{
+                "title":"Confront Lady Lucille Jessop",
+                "detail":"Lady Lucille Jessop is the holder of the glyph\nwe're looking for. It's time to face her and get her glyph's magic key."
+            }
+        }
+    },
+    "Chapter05":{
+        "title":"Chapter 5 - Smoke and Shadow",
+        "detail":"",
+        "category":"main",
+        "icon":189,
+        "behavior":1,
+        "stages":{
+            "tovalyndra01":{
+                "title":"Head back to Valyndra",
+                "detail":"Amaymon points to the next sigil"
+            },
+            "cityguard01":{
+                "title":"Report from the city guard official",
+                "detail":"Meet the captain in the city guard headquarters"
+            },
+            "support01":{
+                "title":"Support the city guards to defend the city",
+                "detail":"The cult of Lilith is attacking the city.\nHelp the city guards to subjugate the enemies."
+            },
+            "defeatlyra01":{
+                "title":"Confront the cultist’s leader",
+                "detail":"Defeat Lyra the cultists' leader."
+            },
+            "defeatlyra02":{
+                "title":"Steal Lyra’s sigil",
+                "detail":"Go to the barracks to meet Lyra."
+            }
+        }
+    },
+    "Chapter06":{
+        "title":"Chapter 6 - Bright Skies, Dark Streets",
+        "detail":"",
+        "category":"main",
+        "icon":189,
+        "behavior":1,
+        "stages":{
+            "merril01":{
+                "title":"Travel to Merril",
+                "detail":"The last sigil is in the city of Merril."
+            },
+            "search01":{
+                "title":"Explore the city",
+                "detail":"Amaymon points somewhere in the north district.\nWe shouldn't draw the attention of the guards."
+            },
+            "infiltrate01":{
+                "title":"Infiltrate in the Pleasure Palace",
+                "detail":"The mysterious woman helped us to escape and gave us\na route through the backyard's secret passage.\nWe need to find Amaymon and confront Tanelia to escape this city."
+            },
+            "amaymon01":{
+                "title":"Find amaymon and the sigil",
+                "detail":"Amaymon and lady Tanelia must be somewhere in this floor.\nWe take Amaymon, read the sigil, and leave ASAP."
+            },
+            "escape02":{
+                "title":"Escape the city",
+                "detail":"We've got lady Tanelia's sigil.\nThere's nothing left to do here, let's go!"
+            }
+        }
+    },
+    "SecretPond01":{
+        "title":"The Secret Pond",
+        "detail": "I need to harvest some ingredients to make potions.\nThis would be agood place to search for them.",
+        "category": "secondary"
+    },
+    "DominationSkill01":{
+        "title":"Amaymon's game",
+        "detail": "Amaymon want to share with me his --incredible skills--\nI just need to win him to his silly game.",
+        "category": "secondary",
+        "stages":{
+            "playgame":{
+                "title":"Amaymon Ball > Play Tutorial",
+                "required":true
+            }
+        }
+    },
+    "YinaQuest01":{
+        "title":"The trapped doppelganger",
+        "detail":"Lilith imprisoned a strange demoness in the tower of lust.\nShe's a doppelganger and has sworn her loyalty if I free her.",
+        "category":"secondary",
+        "reward":"Join the doppelganger",
+        "stages":{
+            "thestocks01":{
+                "title":"Break the last seal",
+                "detail":"Obtain the last Magic Sigil and break the seal\n to release the doppelganger."
+            }
+        }
+    },
+    "CamelliaQuest01":{
+        "title":"The Blue Thief",
+        "detail":"Aurelia Blue has been lurking around.\nCamellia Flaire notices she's stolen her book of recipes.",
+        "category":"secondary",
+        "reward":"500 coins",
+        "behavior":1,
+        "stages":{
+            "aurelia01":{
+                "title":"Search in Dawn Harbor",
+                "description":"That girl again! she's stolen Camellia's recipebook.\nFind clues about her in Dawn Harbor.",
+                "required": true
+            },
+            "aurelia02":{
+                "title":"Find Aurelia Blue",
+                "description":"Aurelia Blue is told to roam in Dawn Harbor.\nFind her and retrieve Camellia's stolen notebook.",
+                "required": true
+            },
+            "aurelia03":{
+                "title":"Capture Aurelia Blue",
+                "description":"The sneaky Aurelia is hard to catch.\nFind a way to ambush her!"
+            },
+            "camellia01":{
+                "title":"Talk to Camellia",
+                "description":"Give back the recipe book to Camellia",
+                "required": true
+            }
+        }
+    },
+    "ClubJobs01":{
+        "title":"Waitress to the Rescue",
+        "detail":"Try the job offers in Velvet Rug club",
+        "category":"jobs",
+        "reward":"200 coins",
+        "stages":{
+            "thestocks01":{
+                "title":"The stocks performance",
+                "required": true
+            },
+            "thesecretroom01":{
+                "title":"The private room",
+                "required": true
+            },
+            "services01":{
+                "title":"Assist some private customers",
+                "objective": 3,
+                "required": true
+            }
+        }
+    }
+}
